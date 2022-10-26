@@ -1,3 +1,87 @@
 * {
   border: 1px solid black;
 }
+
+body {
+  display: flex;
+  margin: 0;
+}
+
+aside {
+  width: 11%;
+}
+
+main {
+  width: 89%;
+}
+
+header {
+  height: 74px;
+}
+
+.title-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 142px;
+}
+
+.title-left,
+.title-right {
+  width: 50%;
+  height: 100%;
+}
+
+nav {
+  height: 53px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-list>li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11%;
+}
+
+.graphs-parent {
+  display: flex;
+  justify-content: space-between;
+  height: 310px;
+}
+
+.graph-left,
+.graph-right {
+  width: 50%;
+  height: 100%;
+}
+
+.page-break {
+  height: 20px;
+}
+
+.info-section {
+  display: flex;
+}
+
+article {
+  width: 60%;
+  margin: 3%;
+}
+
+.externals-bar {
+  width: 30.5%;
+  margin: 3% 3% 3% 0%;
+}
+
+.socials-list {
+  list-style-type: none;
+  padding: 0px;
+}
