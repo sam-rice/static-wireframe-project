@@ -1,5 +1,5 @@
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 body {
@@ -8,11 +8,70 @@ body {
 }
 
 aside {
-  width: 11%;
+  width: 13%;
+}
+
+.aside-top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 165px;
+  width: 100%;
+}
+
+.profile-pic {
+  height: 65%;
+  border-radius: 100%;
+}
+
+.name-aside {
+  display: flex;
+  margin-top: 4px;
+}
+
+.name-aside>h2 {
+  margin: 0px;
+  font-size: 1em;
+}
+
+.name-aside>i {
+  margin-top: -4px;
+  margin-left: 5px;
+}
+
+.name-aside>i:after {
+  content: " ⌄";
+  padding-top: -4px;
+}
+
+aside>hr:first-of-type {
+  margin-top: 5px;
+}
+
+aside>hr {
+  margin: 38px;
+}
+
+h4 {
+  margin: 24px 17px 16px;
+}
+
+.aside-lists {
+  list-style-type: none;
+  padding: 0px 15px;
+}
+
+.aside-lists>li {
+  padding: 11px 0px;
 }
 
 main {
   width: 89%;
+}
+
+main * {
+  border: 1px solid black;
 }
 
 header {
