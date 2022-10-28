@@ -1,14 +1,20 @@
 * {
-  /* border: 1px solid black; */
+  font-family: 'Crimson Text', serif;
 }
 
 body {
   display: flex;
   margin: 0;
+  /* background-image: url(assets/sacred-deer-bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
 }
 
 aside {
   width: 13%;
+  background-color: #00000087;
+  color: white;
 }
 
 .aside-top {
@@ -32,7 +38,7 @@ aside {
 
 .name-aside>h2 {
   margin: 0px;
-  font-size: 1em;
+  font-size: .9em;
 }
 
 .name-aside>i {
@@ -113,31 +119,18 @@ main {
   width: 89%;
 }
 
-main * {
+/* main * {
   border: 1px solid black;
-}
+} */
 
 header {
   display: flex;
   height: 78px;
+  border-bottom: 1px solid gray;
 }
 
 .header-left {
   display: flex;
-  width: 50%;
-}
-
-.hamburger {
-  width: 78px;
-}
-
-.search {
-  width: -webkit-fill-available;
-}
-
-.header-right {
-  display: flex;
-  justify-content: flex-end;
   width: 50%;
 }
 
@@ -146,10 +139,54 @@ header {
   align-items: center;
   justify-content: center;
   width: 78px;
+  border-left: 1px solid gray;
+}
+
+.collapse-button {
+  width: 93px;
+  border-left: none;
+  border-right: 1px solid gray;
+}
+
+.collapse-before:before {
+  font-family: 'Material Icons';
+  content: 'arrow_left';
+  position: relative;
+  top: 2px;
+  left: -4px;
+}
+
+.collapse-icon {
+  height: 35%;
+  position: relative;
+  left: -8px;
+}
+
+.search-parent {
+  display: flex;
+  align-items: center;
+  width: -webkit-fill-available;
+} 
+
+.search-icon {
+  height: 30%;
+  margin: 19px;
+}
+
+.search-input {
+  height: 65%;
+  width: -webkit-fill-available; 
+  border: none;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
 }
 
 .header-button-image {
-  height: 40%;
+  height: 30%;
 }
 
 .title-div {
