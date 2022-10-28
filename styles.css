@@ -309,14 +309,15 @@ nav {
 
 .graphs-parent>* {
   /* background-color:#00000038; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .graphs-parent {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  height: 310px;
+  height: 336px;
+  padding-left: 1%;
 }
 
 .graph-left,
@@ -343,6 +344,7 @@ nav {
   max-width: 255px;
 }
 
+.graph-right-button,
 .graph-left-button {
   width: 93px;
   height: 30px;
@@ -351,17 +353,48 @@ nav {
 }
 
 .graph-right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   width: 42%;
 }
 
+.bar-graph {
+  height: 75%;
+}
+
+.graph-right-button {
+  width: 250px;
+}
+
+/* ----------------------PAGE BREAK---------------------- */
+
 .page-break {
-  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.page-break>hr {
+  width: 47%;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.break-button>img {
+  position: relative;
+  top: -1px;
+  height: 25%;
 }
 
 /* ----------------------MAIN ARTICLE---------------------- */
 
 .info-section {
   display: flex;
+}
+
+.info-section>* {
+  border: 1px solid black;
 }
 
 article {
