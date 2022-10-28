@@ -1,6 +1,16 @@
+html {
+  height: 100%;
+}
+
 * {
   font-family: 'Crimson Text', serif;
   color: white;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 800;
 }
 
 body {
@@ -239,10 +249,11 @@ header {
 
 .title-button {
   font-family: 'Montserrat', sans-serif;
+  color: black;
   font-weight: 800;
   font-size: .75em;
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   border-radius: 100%;
   margin: 7px;
 }
@@ -255,7 +266,7 @@ header {
 
 .rate-button>img {
   height: 70%;
-  right: -1px;
+  top: 4%;
 }
 
 .share-button {
@@ -284,6 +295,7 @@ nav {
   height: 100%;
   padding: 0px;
   margin: 0px;
+  border: 1px solid gray;
 }
 
 .nav-list>li {
@@ -295,24 +307,54 @@ nav {
 
 /* ----------------------GRAPH SECTION---------------------- */
 
-section {
+.graphs-parent>* {
   /* background-color:#00000038; */
+  border: 1px solid black;
 }
 
 .graphs-parent {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   height: 310px;
 }
 
 .graph-left,
 .graph-right {
-  width: 50%;
   height: 100%;
 }
 
+.graph-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 58%;
+  height: 91%;
+}
+
+.circle-graphs-parent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.circle-graph {
+  width: 30%;
+  max-width: 255px;
+}
+
+.graph-left-button {
+  width: 93px;
+  height: 30px;
+  border-radius: 100px;
+  font-size: .7em;
+}
+
+.graph-right {
+  width: 42%;
+}
+
 .page-break {
-  /* background-color:#00000038; */
   height: 20px;
 }
 
