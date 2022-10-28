@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <title>Demo Comp</title>
 </head>
 
@@ -19,33 +20,51 @@
     <hr>
     <h4>Films</h4>
     <ul class="aside-lists">
-      <li>All Films</li>
-      <li>By Genre</li>
-      <li>By Year</li>
-      <li>By Language</li>
-      <li>By Rating</li>
+      <li class="aside-films">All Films</li>
+      <li class="aside-genre">By Genre</li>
+      <li class="aside-year">By Year</li>
+      <li class="aside-lang">By Language</li>
+      <li class="aside-rating">By Rating</li>
     </ul>
     <hr>
     <h4>Television</h4>
     <ul class="aside-lists">
-      <li>All TV</li>
-      <li>By Genre</li>
-      <li>By Year</li>
-      <li>By Language</li>
-      <li>By Rating</li>
+      <li class="aside-tv">All TV</li>
+      <li class="aside-genre">By Genre</li>
+      <li class="aside-year">By Year</li>
+      <li class="aside-lang">By Language</li>
+      <li class="aside-rating">By Rating</li>
     </ul>
     <hr>
     <h4>My Account</h4>
     <ul class="aside-lists">
-      <li>My Films</li>
-      <li>My Ratings</li>
-      <li>Saved Clips</li>
-      <li>Account & Settings</li>
+      <li class="aside-films">My Films</li>
+      <li class="aside-rating">My Ratings</li>
+      <li class="aside-saved">Saved Clips</li>
+      <li class="aside-settings">Account</li>
     </ul>
   </aside>
   <main>
     <header>
-      header
+      <div class="header-left">
+        <div class="hamburger">
+          <span class="material-symbols-outlined">menu</span>
+        </div>
+        <div class="search">
+          search
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="header-button" role="button">
+          <img class="header-button-image" src="assets/saved-icon.png" alt="search by saved titles">
+        </div>
+        <div class="header-button" role="button">
+          <img class="header-button-image" src="assets/globe-icon.png" alt="search by country of origin">
+        </div>
+        <div class="header-button" role="button">
+          <img class="header-button-image" src="assets/grid-icon.png" alt="expanded search options">
+        </div>
+      </div>
     </header>
     <div class="title-div">
       <div class="title-left">
