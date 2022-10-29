@@ -236,6 +236,10 @@ header {
   content: 'location_on';
 }
 
+.subtext-div>h4>* {
+  margin: 5px;
+}
+
 .subtext-div {
   display: flex;
   align-items: center;
@@ -393,13 +397,72 @@ nav {
   display: flex;
 }
 
-.info-section>* {
+/* .info-section>* {
   border: 1px solid black;
-}
+} */
 
 article {
   width: 60%;
   margin: 3%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  background-color: #0000002d;
+}
+
+.table-header {
+  background-color: #00000087;
+}
+
+td {
+  padding: 29px 0px 29px 90px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.296);
+}
+
+.header-key,
+.header-value {
+  border-bottom: none;
+}
+
+.table-key {
+  padding-left: 35px;
+}
+
+.table-value {
+  padding-right: 35px;
+}
+
+.collaborators-td {
+  display: flex;
+  flex-direction: column;
+}
+
+.collaborators-td>div {
+  display: flex;
+  align-items: center;
+}
+
+.collaborators-td>div>* {
+  margin: 7px;
+}
+
+.collaborators-td>div>a:hover,
+.upcoming-work>a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.upcoming-work>* {
+  margin: 7px;
+}
+
+.table-profile-pics {
+  height: 50px;
+  border-radius: 50%;
 }
 
 .externals-bar {
