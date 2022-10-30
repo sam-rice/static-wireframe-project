@@ -453,45 +453,14 @@ tr {
   background-color: #00000087;
 }
 
-.table-hr {
-  position: absolute;
-  left: 18.25%;
-  width: 53%;
-  border: 0px;
-  height: 1px;
-  background-color: rgba(255, 255, 255, 0.296)
-}
-
-.table-hr-1 {
-  top: 869px;
-}
-
-.table-hr-2 {
-  top: 973px;
-}
-
-.table-hr-3 {
-  top: 1070px;
-}
-
-.table-hr-4 {
-  top: 1149px;
-}
-
-.table-hr-5 {
-  top: 1523px;
-}
-
-.table-hr-6 {
-  top: 1600px;
-}
-
-.table-hr-7 {
-  top: 1914px;
-}
-
 td {
   padding: 29px 0px 29px 90px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.296);
+}
+
+.header-key,
+.header-value {
+  border-bottom: none;
 }
 
 .edit-button {
@@ -533,6 +502,10 @@ td {
 .table-profile-pics {
   height: 50px;
   border-radius: 50%;
+}
+
+.upcoming-work-tr>* {
+  border-bottom: none;
 }
 
 /* ----------------------EXTERNALS BAR---------------------- */
