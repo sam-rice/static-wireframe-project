@@ -543,15 +543,28 @@ td {
   height: 600px;
 }
 
-.links-section>h3 {
+.links-section>h3 * {
   position: relative;
   right: -4px;
   margin-top: 37px;
 }
 
-.links-section>h3:before {
+.link-h3:before {
   font-family: 'Material Icons';
   content: 'public';
+}
+
+.embed-h3:before {
+  font-family: 'Material Icons';
+  content: 'code';
+}
+
+.email-h3:before {
+  font-family: 'Material Icons';
+  content: 'send';
+}
+
+.links-section>h3:before {
   position: relative;
   top: 2px;
   left: -5px;
@@ -564,7 +577,8 @@ td {
   margin-bottom: 37px;
 }
 
-.copy-parent>p {
+.copy-parent>p,
+.example-html {
   color: black;
   background-color: white;
   overflow: hidden;
@@ -573,6 +587,10 @@ td {
   line-height: 42px;
   height: 42px;
   padding-left: 13px;
+}
+
+.example-html {
+  padding-left: 0px;
 }
 
 .copy-parent>button {
