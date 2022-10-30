@@ -19,21 +19,15 @@ This project is a simple, static webpage design I created using CSS and HTML onl
 
 ![static-comp-gif](https://user-images.githubusercontent.com/108169988/198904885-c33567f0-5091-4f51-9e06-f7072d463855.gif)
 
-
-### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
-
-This project was an assignment for the third week of the second module of Turing's front-end software engineering program. I spent approximately 35 hours creating it. 
-
 ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.)
 
 [Sam Rice](https://github.com/sam-rice)
 
-### Learning Goals:
+### Context/Learning Goals:
 [//]: <> (What were the learning goals of this project? What tech did you work with?)
 
-The learning goals of this project included further honing our CSS skills, while also integrating proper semantic HTML with accessibility in mind. We were provided with a basic wireframe from which we could deviate in terms of color palette and content, but our designs had to be structurally identical to the wireframe (see below). 
+This project was an assignment for the third week of the second module of Turing's front-end software engineering program. I spent approximately 35 hours creating it. The learning goals of this project included further honing our CSS skills, while also integrating proper semantic HTML with accessibility in mind. We were provided with a basic wireframe from which we could deviate in terms of color palette and content, but our designs had to be structurally identical to the wireframe (see below). 
 
 ![static-comp-provided-wireframe](https://user-images.githubusercontent.com/108169988/198905481-071a6da0-ea58-4894-a3d1-571fd11566a8.jpeg)
 
