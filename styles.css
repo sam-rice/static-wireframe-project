@@ -93,7 +93,7 @@ aside>h4 {
 
 .aside-lists {
   list-style-type: none;
-  padding: 0px 15px;
+  padding: 0px 25px;
 }
 
 .aside-lists>li {
@@ -224,7 +224,7 @@ header {
   width: -webkit-fill-available; 
   border: none;
   color: black;
-  padding: 12px 0px 0px 11px;
+  padding: 10px 0px 0px 11px;
   font-size: 1em;
 }
 
@@ -253,7 +253,8 @@ header {
   height: 100%;
 }
 
-.title-left>h1 {
+h1 {
+  font-size: 2.2em;
   margin: 43px 0px 0px 43px;
 }
 
@@ -322,6 +323,8 @@ header {
 
 nav {
   height: 53px;
+  background-color: #00000087;
+  margin-left: 3%;
 }
 
 .nav-list {
@@ -329,8 +332,7 @@ nav {
   list-style-type: none;
   height: 100%;
   padding: 0px;
-  margin: 0px;
-  border: 1px solid gray;
+
 }
 
 .nav-list>li {
@@ -451,14 +453,45 @@ tr {
   background-color: #00000087;
 }
 
-td {
-  padding: 29px 0px 29px 90px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.296);
+.table-hr {
+  position: absolute;
+  left: 18.25%;
+  width: 53%;
+  border: 0px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.296)
 }
 
-.header-key,
-.header-value {
-  border-bottom: none;
+.table-hr-1 {
+  top: 869px;
+}
+
+.table-hr-2 {
+  top: 973px;
+}
+
+.table-hr-3 {
+  top: 1070px;
+}
+
+.table-hr-4 {
+  top: 1149px;
+}
+
+.table-hr-5 {
+  top: 1523px;
+}
+
+.table-hr-6 {
+  top: 1600px;
+}
+
+.table-hr-7 {
+  top: 1914px;
+}
+
+td {
+  padding: 29px 0px 29px 90px;
 }
 
 .edit-button {
@@ -466,7 +499,7 @@ td {
 }
 
 .table-key {
-  padding-left: 35px;
+  padding-left: 5%;
 }
 
 .table-value {
@@ -541,6 +574,7 @@ td {
 
 .links-section {
   height: 600px;
+  margin-top: 40px;
 }
 
 .links-section>h3 * {
@@ -567,7 +601,7 @@ td {
 .links-section>h3:before {
   position: relative;
   top: 2px;
-  left: -5px;
+  left: -1px;
 }
 
 .copy-parent {
