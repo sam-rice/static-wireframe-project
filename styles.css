@@ -12,13 +12,13 @@ button {
   color: black;
   font-weight: 800;
   background-color: #ffffffd4;
-  border: 1px solid gray;
+  border: none;
 }
 
 button:hover {
   cursor: pointer;
-  transform: scale(1.01);
-  transition-duration: 100ms;
+  transition-duration: 200ms;
+  background-color: white;
 }
 
 body {
@@ -48,6 +48,7 @@ aside {
 
 .profile-pic {
   width: 65%;
+  max-width: 129px;
   border-radius: 100%;
 }
 
@@ -57,6 +58,8 @@ aside {
 }
 
 .name-aside>h2 {
+  font-familY: 'Montserrat', sans-serif;
+  font-weight: 800;
   margin: 0px;
   font-size: .9em;
 }
@@ -175,10 +178,14 @@ header {
   filter: invert(1)
 }
 
+.header-button>img {
+  filter: invert(.07);
+}
+
 .header-button>img:hover {
   cursor: pointer;
-  transform: scale(1.05);
   transition-duration: 100ms;
+  filter: invert(0)
 }
 
 .collapse-button {
@@ -582,6 +589,7 @@ td {
   align-items: center;
   height: 44px;
   margin-bottom: 37px;
+  width: -webkit-fill-available;
 }
 
 .copy-parent>p,
@@ -592,14 +600,12 @@ td {
   white-space: nowrap;
   text-overflow: ellipsis;
   line-height: 42px;
-  height: 42px;
+  height: 100%;
   padding-left: 13px;
-}
-
-.example-html {
-  padding-left: 0px;
+  width: -webkit-fill-available;
 }
 
 .copy-parent>button {
   height: 100%;
+  border-left: 1px solid rgb(153, 153, 153);
 }
