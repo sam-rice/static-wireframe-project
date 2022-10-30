@@ -14,7 +14,7 @@ This project is a simple, static webpage design I created using CSS and HTML onl
 4. Open all files in your text editor.
 5. View the project in the browser by running open index.html in your terminal.
 
-### Preview of App:
+### Preview:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
 ![static-comp-gif](https://user-images.githubusercontent.com/108169988/198904885-c33567f0-5091-4f51-9e06-f7072d463855.gif)
