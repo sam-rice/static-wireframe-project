@@ -11,6 +11,8 @@ button {
   font-family: 'Montserrat', sans-serif;
   color: black;
   font-weight: 800;
+  background-color: #ffffffd4;
+  border: 1px solid gray;
 }
 
 button:hover {
@@ -69,6 +71,13 @@ aside {
   padding-top: -4px;
 }
 
+.name-aside>h2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* ----------------------ASIDE LIST---------------------- */
+
 aside>hr:first-of-type {
   margin-top: 5px;
 }
@@ -79,9 +88,8 @@ aside>hr {
 
 aside>h4 {
   margin: 24px 17px 16px;
+  font-size: 1.2em;
 }
-
-/* ----------------------ASIDE LIST---------------------- */
 
 .aside-lists {
   list-style-type: none;
@@ -90,6 +98,14 @@ aside>h4 {
 
 .aside-lists>li {
   padding: 11px 0px;
+  font-family: 'Montserrat';
+  font-weight: 100;
+  font-size: 0.8em;
+}
+
+.aside-lists>li:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .aside-lists>li:before {
@@ -156,6 +172,13 @@ header {
   justify-content: center;
   width: 78px;
   border-left: 1px solid gray;
+  filter: invert(1)
+}
+
+.header-button>img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition-duration: 100ms;
 }
 
 .collapse-button {
@@ -170,6 +193,7 @@ header {
   position: relative;
   top: 2px;
   left: -4px;
+  filter: invert(1)
 }
 
 .collapse-icon {
@@ -185,14 +209,23 @@ header {
 } 
 
 .search-icon {
+  background-color: white;
   height: 30%;
-  margin: 19px;
+  margin: 19px 0px 19px 19px;
+  padding: 13px;
+}
+
+.search-icon:hover {
+  cursor: pointer;
 }
 
 .search-input {
   height: 65%;
   width: -webkit-fill-available; 
   border: none;
+  color: black;
+  padding: 12px 0px 0px 11px;
+  font-size: 1em;
 }
 
 .header-right {
@@ -253,9 +286,6 @@ header {
 }
 
 .title-button {
-  font-family: 'Montserrat', sans-serif;
-  color: black;
-  font-weight: 800;
   font-size: .75em;
   height: 40px;
   width: 40px;
@@ -308,6 +338,12 @@ nav {
   align-items: center;
   justify-content: center;
   width: 11%;
+}
+
+.nav-list>li:hover {
+  cursor: pointer;
+  border-bottom: 3px solid white;
+  transition-duration: 100ms;
 }
 
 /* ----------------------GRAPH SECTION---------------------- */
@@ -373,6 +409,9 @@ nav {
 .page-break {
   display: flex;
   align-items: center;
+  width: 94.5%;
+  position: relative;
+  left: 3%;
 }
 
 .page-break>hr {
@@ -420,6 +459,10 @@ td {
 .header-key,
 .header-value {
   border-bottom: none;
+}
+
+.edit-button {
+  font-size: .7em;
 }
 
 .table-key {
