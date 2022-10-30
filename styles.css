@@ -13,12 +13,17 @@ button {
   font-weight: 800;
 }
 
+button:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition-duration: 100ms;
+}
+
 body {
   display: flex;
   margin: 0;
   background-image: url(assets/dogtooth-bg.jpeg);
   background-size: cover;
-  /* background-repeat: no-repeat; */
   background-attachment: fixed;
 }
 
@@ -131,10 +136,6 @@ aside>h4 {
 main {
   width: 89%;
 }
-
-/* main * {
-  border: 1px solid black;
-} */
 
 /* ----------------------HEADER---------------------- */
 
@@ -393,7 +394,7 @@ nav {
 }
 
 article {
-  width: 60%;
+  width: 67%;
   margin: 3%;
 }
 
@@ -461,15 +462,15 @@ td {
 /* ----------------------EXTERNALS BAR---------------------- */
 
 .externals-bar {
-  width: 30.5%;
+  width: 24%;
   margin: 3% 3% 3% 0%;
 }
 
 .socials-div {
   display: flex;
   flex-direction: column;
-  height: 253px;
-  justify-content: space-evenly;
+  height: 213px;
+  justify-content: space-between;
 }
 
 .socials-button {
@@ -493,4 +494,44 @@ td {
 
 .socials-button:first-child>span {
   font-size: .9em;
+}
+
+.links-section {
+  height: 600px;
+}
+
+.links-section>h3 {
+  position: relative;
+  right: -4px;
+  margin-top: 37px;
+}
+
+.links-section>h3:before {
+  font-family: 'Material Icons';
+  content: 'public';
+  position: relative;
+  top: 2px;
+  left: -5px;
+}
+
+.copy-parent {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  margin-bottom: 37px;
+}
+
+.copy-parent>p {
+  color: black;
+  background-color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 42px;
+  height: 42px;
+  padding-left: 13px;
+}
+
+.copy-parent>button {
+  height: 100%;
 }
